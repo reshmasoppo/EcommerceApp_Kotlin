@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@+id/homefragment"
+    android:id="@+id/navgation_bottom" >
+
+    <fragment
+        android:id="@+id/notificationfragment"
+        android:name="com.example.ecommerceapp_kotlin.Notificationfragment"
+        android:label="Notification" />
+    <fragment
+
+        android:id="@+id/accountfragment"
+        android:name="com.example.ecommerceapp_kotlin.AccountFragment"
+        android:label="Account" />
+
+    <fragment
+        android:id="@+id/homefragment"
+        android:name="com.example.ecommerceapp_kotlin.HomeFragment"
+        android:label="Home" />
+    <fragment
+        android:id="@+id/messagefragment"
+        android:name="com.example.ecommerceapp_kotlin.Messagefragment"
+        android:label="Message" />
+
+    <fragment
+        android:id="@+id/favoritesfragment"
+        android:name="com.example.ecommerceapp_kotlin.Favoritesfragment"
+        android:label="Favorites" />
+</navigation>
