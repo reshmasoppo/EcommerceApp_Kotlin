@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
@@ -16,9 +16,6 @@
         <item name="android:textSize">15sp</item>
         <item name="android:colorBackground">@color/colorAccent</item>
     </style>
-
-
-
     <style name="signUp_button" parent="Widget.MaterialComponents.Button">
         <item name="shapeAppearanceOverlay">@style/MyShapeAppearance</item>
     </style>
@@ -37,4 +34,81 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/colorAccent</item>
     </style>
+
+    <style name="dashboard_button_style" parent="Widget.MaterialComponents.Button">
+        <item name="cornerRadius">@dimen/button_corner_radius_dashboard</item>
+        <item name="android:colorBackground">@color/colorAccent</item>
+        <item name="android:textAllCaps">false</item>
+        <!--<item name="android:textAlignment">center</item>
+        <item name="android:paddingEnd">@dimen/dashboard_button_padding</item>
+        <item name="android:paddingStart">@dimen/dashboard_button_padding</item>!-->
+
+    </style>
+
+    <style name="dashboard_text_style" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="dashboard_header_text_style" parent="dashboard_text_style">
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="flash_sale_content_style">
+        <item name="android:textSize">10sp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+<style name="txt_product_Rate">
+    <item name="android:textSize">10sp</item>
+    <item name="android:padding">0dp</item>
+    <item name="android:textStyle">normal</item>
+    <item name="android:textColor">@color/colorAccent</item>
+
+</style>
+
+    <style name="flash_sale_content_style.bold">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="dashboard_button_style.small">
+        <item name="android:textSize">13sp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Recomended_textStyle">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+
+    </style>
+    <style name="filter_button_style" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeTopRight">25dp</item>
+        <item name="cornerSizeBottomRight">25dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+    <style name="filter_button_style1" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="android:background">@color/colorAccent</item>
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">25dp</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">25dp</item>
+        <item name="android:paddingRight">20dp</item>
+    </style>
+    <style name="fav_style">
+
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>

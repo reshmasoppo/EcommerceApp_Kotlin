@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dashboard_button_padding">10dp</dimen>
+    <dimen name="button_corner_radius_dashboard">25dp</dimen>
+    <dimen name="banner_constriant_margin">16dp</dimen>
+    <dimen name="banner_text_width">100dp</dimen>
+    <dimen name="star_image_width">12dp</dimen>
+    <dimen name="star_image_height">16dp</dimen>
+    <dimen name="cardview_banner_elevation">8dp</dimen>
+    <dimen name="starImageWidth">20dp</dimen>
+    <dimen name="product_overview_cardview_radius">5dp</dimen>
+    <dimen name="overview_flash_sale_cardview_height">85dp</dimen>
+    <dimen name="flash_sale_percentage_button_width">50dp</dimen>
+
+
+
+
+</resources>

@@ -9,7 +9,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.viewpager.widget.PagerAdapter
 
-class SlidingImage_Adapter (private val context: Context, private val imageModelArrayList: ArrayList<Splash_Model>) : PagerAdapter(){
+class SlidingImage_Adapter(private val context: Context, private val imageModelArrayList: ArrayList<Splash_Model>) : PagerAdapter(){
     private val inflater: LayoutInflater
 
     init {
@@ -19,15 +19,16 @@ class SlidingImage_Adapter (private val context: Context, private val imageModel
     override fun isViewFromObject(view: View, `object`: Any): Boolean {
         return view == `object`
     }
-    override fun getCount(): Int {
+    override fun getCount(): Int
+    {
         return imageModelArrayList.size
     }
     override fun destroyItem(container: ViewGroup, position: Int, `object`: Any) {
         container.removeView(`object` as View)
     }
 
-    override fun instantiateItem(view: ViewGroup, position: Int): Any {
-
+    override fun instantiateItem(view: ViewGroup, position: Int): Any
+    {
         val imageLayout = inflater.inflate(R.layout.splash_screen_items, view, false)!!
         val imageView = imageLayout.findViewById(R.id.imageView) as ImageView
         val textView = imageLayout.findViewById(R.id.textView3) as TextView
